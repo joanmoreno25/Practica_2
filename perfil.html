@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TomaNota</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="scss/custom.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid vh-100">
+        <div class="row h-100">
+            <div class="col-xl-2 col-md-3 col-sm-4 bg-primary p-5">
+                <a href="#"><img class="logo img-fluid mx-auto d-block mb-4" src="imagenes/logo.png" alt="logo"></a>
+                <div class="d-grid gap-4">
+                    <button type="button" class="btn btn-warning btn-block">Mis notas</button>
+                    <button type="button" class="btn btn-warning btn-block">Compartido</button>
+                    <button type="button" class="btn btn-warning btn-block">Papelera</button>
+                    <button type="button" class="btn btn-warning btn-block">Ayuda</button>
+                </div>
+            </div>
+            <div class="col-xl-10 col-md-9 col-sm-8 p-5">
+                <h3 class="text-warning fw-bold my-4">TU PERFIL</h3>
+                <a href="#"><img class="perfil-icono img-fluid mx-auto d-inline-block" src="imagenes/cambiar perfil.png" alt="perfil"></a>
+                <h2 class="d-inline-block">¡Hola, Mateo!</h2>
+                <h3 class="fw-bold my-5">Preferencias</h3>
+                <form action="#">
+                    <div class="row">
+                        <div class="col-md-6 mt-2 mb-2">
+                            <label for="nombre" class="form-label fw-lighter">Correo electrónico</label>
+                            <input type="text" class="form-control" id="nombre" name="nombre">
+                        </div>
+                        <div class="col-md-6 mt-2 mb-2">
+                            <label for="ocultar" class="form-label fw-lighter float-end">
+                                <a href="#" class="text-secondary" style="text-decoration: none;"><img src="imagenes/ocultar.png" alt="icono ocultar" class="pe-2">Ocultar</a>
+                            </label>
+                            <label for="password" class="form-label fw-lighter">Contraseña</label>
+                            <input type="password" class="form-control" id="password" name="password">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 mt-2 mb-2">
+                            <label for="nombre" class="form-label fw-lighter">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" name="nombre">
+                        </div>
+                        <div class="col-md-3 mt-2 mb-2">
+                            <label for="apellidos" class="form-label fw-lighter">Apellidos</label>
+                            <input type="text" class="form-control" id="apellidos" name="apellidos">
+                        </div>
+                        <div class="col-md-6 mt-2 mb-2">
+                            <label for="ocultar" class="form-label fw-lighter float-end">
+                                <a href="#" class="text-secondary" style="text-decoration: none;"><img src="imagenes/ocultar.png" alt="icono ocultar" class="pe-2">Ocultar</a>
+                            </label>
+                            <label for="repetircontraseña" class="form-label fw-lighter">Repetir contraseña</label>
+                            <input type="password" class="form-control" id="repetircontraseña" name="repetircontraseña">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mt-2 mb-2">
+                            <label for="telefono" class="form-label fw-lighter">Teléfono (opcional)</label>
+                            <input type="number" class="form-control mb-4" id="telefono" name="telefono">
+                            <label for="pais" class="form-label fw-lighter">País (opcional)</label>
+                            <input type="text" class="form-control" id="pais" name="pais">
+                        </div>
+                        <div class="col-md-6 mt-2 mb-2">
+                            <label for="mensaje" class="form-label fw-lighter">Mensaje</label>
+                            <textarea type="text" class="form-control mb-3" id="mensaje" name="mensaje" rows="5"></textarea>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-danger rounded-pill px-5 mb-3 mx-2 float-end">Cerrar sesión</button>  
+                    <button type="button" class="btn btn-primary rounded-pill px-5 mx-2 float-end">Actualizar perfil</button>
+                </form>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TomaNota</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="scss/custom.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid vh-100">
+        <div class="row h-100">
+            <div class="col-xl-2 col-md-3 col-sm-4 bg-primary p-5">
+                <a href="#"><img class="logo img-fluid mx-auto d-block mb-4" src="imagenes/logo.png" alt="logo"></a>
+                <div class="d-grid gap-4">
+                    <button type="button" class="btn btn-warning btn-block">Mis notas</button>
+                    <button type="button" class="btn btn-warning btn-block">Compartido</button>
+                    <button type="button" class="btn btn-warning btn-block">Papelera</button>
+                    <button type="button" class="btn btn-warning btn-block">Ayuda</button>
+                </div>
+            </div>
+            <div class="col-xl-10 col-md-9 col-sm-8 p-5">
+                <div class="row">
+                    <div class="col-md-2 mt-2">
+                        <h6>Favoritas</h6>
+                    </div>
+                    <div class="col-md-2 mt-2">
+                        <h6>Ordenar</h6>
+                    </div>
+                    <div class="col-md-6">
+                        <form class="d-flex mb-5" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar nota..." aria-label="Buscar">
+                            <button class="btn btn-outline-success" type="submit">
+                                <img class="img-fluid mx-auto d-inline-block" src="imagenes/lupa.png" alt="lupa">
+                            </button>
+                        </form>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="#"><img class="perfil-icono img-fluid mx-auto d-inline-block" src="imagenes/perfil.png" alt="perfil"></a>
+                    </div>
+                </div>
+                <h3 class="text-warning fw-bold my-3">ELIMINADO RECIENTEMENTE</h3>
+                <P class="text-secondary mb-5">Los mensajes que lleven más de 30 días en la papelera se eliminarán automáticamente</P>
+                <div class="row mt-3">
+                    <div class="col-xl-4 mb-5">
+                        <div class="card" style="width: 250px; height: 250px;">
+                            <div class="card-body d-flex flex-column">
+                                <h4 class="card-title">Nota 1</h4>
+                                <p class="card-text">Hace 40 min</p>
+                                <div class="btn-group mt-auto">
+                                    <button type="button" class="btn btn-danger me-2">ELIMINAR</button>
+                                    <button type="button" class="btn btn-success">RECUPERAR</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 mb-5">
+                        <div class="card" style="width:250px; height:250px;">
+                            <div class="card-body d-flex flex-column">
+                              <h4 class="card-title">Nota 2</h4>
+                              <p class="card-text">Hace 3 días</p>
+                              <div class="btn-group mt-auto">
+                                <button type="button" class="btn btn-danger me-2">ELIMINAR</button>
+                                <button type="button" class="btn btn-success">RECUPERAR</button>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 mb-5">
+                        <div class="card" style="width:250px; height:250px;">
+                            <div class="card-body d-flex flex-column">
+                              <h4 class="card-title">Nota 3</h4>
+                              <p class="card-text">Hace 1 semana</p>
+                              <div class="btn-group mt-auto">
+                                <button type="button" class="btn btn-danger me-2">ELIMINAR</button>
+                                <button type="button" class="btn btn-success">RECUPERAR</button>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 mb-5">
+                        <div class="card" style="width:250px; height:250px;">
+                            <div class="card-body d-flex flex-column">
+                              <h4 class="card-title">Nota 4</h4>
+                              <p class="card-text">Hace 1 mes</p>
+                              <div class="btn-group mt-auto">
+                                <button type="button" class="btn btn-danger me-2">ELIMINAR</button>
+                                <button type="button" class="btn btn-success">RECUPERAR</button>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 mb-5">
+                        <div class="card" style="width:250px; height:250px;">
+                            <div class="card-body d-flex flex-column">
+                              <h4 class="card-title">Nota 5</h4>
+                              <p class="card-text">Hace 1 mes</p>
+                              <div class="btn-group mt-auto">
+                                <button type="button" class="btn btn-danger me-2">ELIMINAR</button>
+                                <button type="button" class="btn btn-success">RECUPERAR</button>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 mb-5">
+                        <a href="#"><img class="mas-notas img-fluid mx-auto d-inline-block p-3" src="imagenes/mas notas.png" alt="mas notas"></a>
+                    </div>
+                </div>               
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

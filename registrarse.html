@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TomaNota</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="scss/custom.css" rel="stylesheet">
+</head>
+<body class="fondo">
+  <div class="d-flex justify-content-center align-items-center vh-100">
+    <div class="formulario bg-white rounded-3 shadow p-5 bg-white" style="width: 35%;">
+        <a href="#" class="float-end"><img src="imagenes/salir.png" alt="salir"></a>
+        <img class="logo img-fluid mx-auto d-block" src="imagenes/logo.png" alt="logo">
+        <h3 class="text-center">Registrarse</h3>
+        <p class="text-center">¿Ya tienes una cuenta? <a href="#" class="text-dark text-nowrap">Iniciar sesión</a></p>
+        <button type="button" class="btn btn-outline-secondary rounded-pill mx-auto d-block w-100 text-nowrap"> 
+          <img src="imagenes/google.png" alt="google" class="logo-google">Continuar con Google 
+        </button>
+        <br><hr><br>
+        <form action="#">
+            <div class="row">
+                <div class="col-sm-6 mt-2 mb-2">
+                    <label for="nombre" class="form-label fw-lighter">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre">
+                </div>
+                <div class="col-sm-6 mt-2 mb-2">
+                    <label for="apellidos" class="form-label fw-lighter">Apellidos</label>
+                    <input type="text" class="form-control" id="apellidos" name="apellidos">
+                </div>
+            </div>
+            <div class="mb-4 mt-3">
+              <label for="email" class="form-label fw-lighter">Correo electrónico</label>
+              <input type="email" class="form-control" id="email" name="email">
+            </div>
+            <div class="mb-4">
+              <label for="ocultar" class="form-label fw-lighter float-end">
+                <a href="#" class="text-secondary" style="text-decoration: none;"><img src="imagenes/ocultar.png" alt="icono ocultar" class="pe-2">Ocultar</a>
+              </label>
+              <label for="contraseña" class="form-label fw-lighter">Contraseña:</label>
+              <input type="password" class="form-control" id="contraseña" name="contraseña">
+            </div>
+            <div class="mb-4">
+                <label for="ocultar2" class="form-label fw-lighter float-end">
+                  <a href="#" class="text-secondary" style="text-decoration: none;"><img src="imagenes/ocultar.png" alt="icono ocultar2" class="pe-2">Ocultar</a>
+                </label>
+                <label for="repetircontraseña" class="form-label fw-lighter">Repetir contraseña:</label>
+                <input type="password" class="form-control" id="repetircontraseña" name="repetircontraseña">
+            </div>
+            <button type="submit" class="btn btn-primary text-white rounded-pill mx-auto d-block w-100">Crear cuenta</button>
+        </form>
+    </div>
+  </div>
+</body>
+</html> 
